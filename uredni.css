@@ -1,10 +1,8 @@
 body
 {
-    padding: 15px;
     background-image: url(https://rare-gallery.com/uploads/posts/771824-macbook-Apple-Laptops-Telephone.jpg);
     background-size: cover;
     background-position: center center;
-    margin: auto;
 }
 
 .naslov
@@ -12,20 +10,21 @@ body
     margin-top: 60px;
     font-size: 30px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    text-align: center;
-    border: 10px solid gold;
-    border-radius: 100px;
+    border: 5px solid gold;
     color: white;
     background-color: rgb(6, 4, 138);
+    margin-right: 60%;
+    padding-left: 50px;
+    margin-left: 20px;
 }
 
 .link
 {
-    padding: 20px;
     font-size: 30px;
     font-family: fantasy;
+    text-align: center;
+    padding: 20px;
 }
-
 
 hr
 {
@@ -35,9 +34,53 @@ hr
 
 .paragraf
 {
-    font-size: 30px;
+    font-size: 20px;
     font-family:Arial, Helvetica, sans-serif;
-    color: white;
-    text-align: center;
-    margin-top: 100px;
+    margin-top: 60px;
+    border: 5px solid gold;
+    background-color: white;
+    margin-left: 20px;
+    font-weight: bolder;
+    padding-left: 20px;
+    padding-bottom: 100px;
+}
+
+.tesko
+{
+    column-count: 2;
+    column-gap: 60px;
+    flex-wrap: wrap;
+}
+.profilna
+{
+    display: flex;
+    border: 5px solid gold;
+    margin-left: 60%;
+    margin-right: 13%;
+}
+
+.slika
+{
+    width: 500px;
+    height: 600px;
+}
+
+
+
+
+
+a:link {
+      text-decoration: none;
+}
+
+a:visited {
+      text-decoration: none;
+}
+
+a:hover {
+      text-decoration: none;
+}
+
+a:active {
+      text-decoration: none;
 }
