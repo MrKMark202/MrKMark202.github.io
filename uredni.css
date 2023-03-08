@@ -1,20 +1,19 @@
 body
 {
-    background-image: url(https://rare-gallery.com/uploads/posts/771824-macbook-Apple-Laptops-Telephone.jpg);
+    background-image: url('slika.jpg');
     background-size: cover;
     background-position: center center;
 }
 
 .naslov
 {
-    margin-top: 60px;
     font-size: 30px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    border: 5px solid gold;
+    border: 5px solid #27296d;
     color: white;
     background-color: rgb(6, 4, 138);
-    margin-right: 60%;
-    padding-left: 50px;
+    margin-right: 20%;
+    padding-left: 40px;
     margin-left: 20px;
 }
 
@@ -37,12 +36,13 @@ hr
     font-size: 20px;
     font-family:Arial, Helvetica, sans-serif;
     margin-top: 60px;
-    border: 5px solid gold;
+    border: 5px solid silver;
     background-color: white;
     margin-left: 20px;
     font-weight: bolder;
     padding-left: 20px;
-    padding-bottom: 100px;
+    padding-bottom: 50px;
+    margin-right: 20%;
 }
 
 .tesko
@@ -50,22 +50,88 @@ hr
     column-count: 2;
     column-gap: 60px;
     flex-wrap: wrap;
+    margin-top: 50px;
 }
 .profilna
 {
     display: flex;
-    border: 5px solid gold;
-    margin-left: 60%;
-    margin-right: 13%;
+    border: 5px solid silver;
+    margin-left: 30%;
+    margin-right: 14.6%;
 }
 
 .slika
 {
-    width: 500px;
-    height: 600px;
+    width: 600px;
+    height: 500px;
 }
 
+.naslov2
+{
+    margin-top: 50px;
+    font-size: 30px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    border: 5px solid #27296d;
+    color: white;
+    background-color: rgb(6, 4, 138);
+    margin-right: 60%;
+    padding-left: 7.5%;
+    margin-left: 20px;
+    margin-bottom: 50px;
+}
 
+.k
+{
+  padding-left: 10px;
+  padding-right: 40px;
+  height: 50px;
+  margin: 8px 5px;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  font-size: 20px;
+}
+
+textarea
+{
+  width: 50%;
+  height: 400px;
+  padding: 12px 20px;
+  box-sizing: border-box;
+  border: 2px solid #ccc;
+  border-radius: 4px;
+  background-color: #f8f8f8;
+  resize: none;
+  font-size: 20px;
+  font-family: 'Times New Roman', Times, serif;
+  margin-bottom: 150px ;
+}
+
+.kt
+{
+    color: white;
+    font-size: 35px;
+    border: 5px solid #27296d;
+    background-color: rgb(6, 4, 138);
+    margin-right: 85%;
+    text-align: center;
+}
+
+button
+{
+    padding: 20px;
+    text-align: center;
+    font-size: 40px;
+    background-color: gold;
+    width: 100%;
+    transition: 0.3s;
+}
+
+button:hover {
+  background-color: rgb(6, 4, 138);
+  color: white;
+}
 
 
 
