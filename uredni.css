@@ -124,9 +124,11 @@ button
     text-align: center;
     font-size: 40px;
     background-color: gold;
-    width: 100%;
+    width: 50%;
     transition: 0.3s;
+    margin-left: 25%;
 }
+
 
 button:hover {
   background-color: rgb(6, 4, 138);
