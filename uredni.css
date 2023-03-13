@@ -1,21 +1,20 @@
 body
 {
-    background-image: url('slika.jpg');
-    background-size: cover;
-    background-position: center center;
+    background-color: #B7C4CF;
 }
 
 .naslov
 {
     font-size: 30px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    border: 5px solid #27296d;
+    border: 5px solid #16213E;
     color: white;
-    background-color: rgb(6, 4, 138);
-    margin-right: 20%;
-    padding-left: 40px;
-    margin-left: 20px;
+    background-color: #16213E;
+    border-radius: 50%;
+    text-align: center;
+    margin: 4% 30%;
 }
+
 
 .link
 {
@@ -23,12 +22,7 @@ body
     font-family: fantasy;
     text-align: center;
     padding: 20px;
-}
-
-hr
-{
-    border: 3px solid gold;
-    border-radius: 5px;
+    background-color: #16213E;
 }
 
 .paragraf
@@ -36,48 +30,46 @@ hr
     font-size: 20px;
     font-family:Arial, Helvetica, sans-serif;
     margin-top: 60px;
+    margin-bottom: 50px;
     border: 5px solid silver;
     background-color: white;
     margin-left: 20px;
     font-weight: bolder;
-    padding-left: 20px;
-    padding-bottom: 50px;
-    margin-right: 20%;
-}
-
-.tesko
-{
-    column-count: 2;
-    column-gap: 60px;
-    flex-wrap: wrap;
-    margin-top: 50px;
-}
-.profilna
-{
-    display: flex;
-    border: 5px solid silver;
-    margin-left: 30%;
-    margin-right: 14.6%;
+    padding: 10px 20px;
+    padding-bottom: 20%;
 }
 
 .slika
 {
-    width: 600px;
+    width: 500px;
     height: 500px;
+    border-radius: 50%;
+    margin-top: 60px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 100px;
+}
+
+.samopisajuci-tekst
+{
+    font-size: 50px;
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center;
+    margin-bottom: 100px;
 }
 
 .naslov2
 {
-    margin-top: 50px;
     font-size: 30px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    border: 5px solid #27296d;
+    border: 5px solid #16213E;
     color: white;
-    background-color: rgb(6, 4, 138);
-    margin-right: 60%;
-    padding-left: 7.5%;
-    margin-left: 20px;
-    margin-bottom: 50px;
+    background-color: #16213E;
+    border-radius: 50%;
+    text-align: center;
+    margin: 4% 30%;
+    margin-bottom: 100px;
 }
 
 .k
@@ -91,6 +83,9 @@ hr
   border-radius: 4px;
   box-sizing: border-box;
   font-size: 20px;
+  display: block;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 textarea
@@ -106,16 +101,21 @@ textarea
   font-size: 20px;
   font-family: 'Times New Roman', Times, serif;
   margin-bottom: 150px ;
+  display: block;
+    margin-left: auto;
+    margin-right: auto;
+ 
 }
 
 .kt
 {
     color: white;
     font-size: 35px;
-    border: 5px solid #27296d;
-    background-color: rgb(6, 4, 138);
-    margin-right: 85%;
+    border: 5px solid #16213E;
+    background-color: #16213E;
+    border-radius: 100px;
     text-align: center;
+    margin: 3% 40%;
 }
 
 button
@@ -123,10 +123,11 @@ button
     padding: 20px;
     text-align: center;
     font-size: 40px;
-    background-color: gold;
+    background-color: red;
     width: 50%;
     transition: 0.3s;
     margin-left: 25%;
+    margin-bottom: 100px;
 }
 
 
@@ -134,6 +135,10 @@ button:hover {
   background-color: rgb(6, 4, 138);
   color: white;
 }
+
+
+
+
 
 
 
@@ -151,4 +156,25 @@ a:hover {
 
 a:active {
       text-decoration: none;
+}
+
+
+
+.slika {
+  animation-name: tender-swan;
+  animation-duration: 2s;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+}
+
+@keyframes tender-swan {
+  0% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(25px);
+  }
+  150% {
+    transform: translateY(0);
+  }
 }
