@@ -18,6 +18,9 @@ body
 
 .link
 {
+    display: grid;
+    grid-template-columns: auto auto;
+    gap: 30px ;
     font-size: 30px;
     font-family: fantasy;
     text-align: center;
