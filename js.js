@@ -1,4 +1,5 @@
-    var tekst = "Pozdrav i dobrodošao!";
+    var tekst = "POZDRAV I DOBRODOŠAO!";
+
     var i = 0;
 
     function samopisuciTekst() {
@@ -24,3 +25,19 @@
     }
 
     samopisuciTekst();
+
+
+var myIndex = 0;
+carousel();
+
+function carousel() {
+  var ii;
+  var x = document.getElementsByClassName("mySlides");
+  for (ii = 0; ii < x.length; ii++) {
+    x[ii].style.display = "none";  
+  }
+  myIndex++;
+  if (myIndex > x.length) {myIndex = 1}    
+  x[myIndex-1].style.display = "block";  
+  setTimeout(carousel, 1000);    
+}
