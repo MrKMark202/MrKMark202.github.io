@@ -52,7 +52,7 @@ body
   border-radius: 100px;
   border: none;
   background: #333;
-  color: #e5e5e5;
+  color:white;
   font-weight: 600;
   box-shadow: inset 20px 20px 39px #080a10,
   inset -20px -20px 39px #1b263e;
@@ -61,7 +61,6 @@ body
   margin-right: auto;
   margin-top: 50px;
   margin-bottom: 100px;
-  ;
 }
 
 .slika
@@ -97,6 +96,9 @@ body
     margin-top: 50px;
     margin-left: auto;
     margin-right: auto;
+    border: 2px solid #16213E;
+    background-color: white;
+    border-radius: 20px;
 }
 
 .pro
@@ -104,6 +106,7 @@ body
   font-family:"Verdana, Geneva, Tahoma, sans-serif";
   border: 3px solid #16213E;
   background-color: white;
+  border-radius: 20px;
   margin-left: 20%;
   margin-right: 20%;
   margin-bottom: 200px;
@@ -115,6 +118,7 @@ body
   font-family:"Verdana, Geneva, Tahoma, sans-serif";
   border: 3px solid #16213E;
   background-color: white;
+  border-radius: 20px;
   margin-left: 20%;
   margin-right: 20%;
   margin-bottom: 50px;
@@ -130,6 +134,45 @@ body
   width: 100%;
 }
 
+.dm
+{
+    margin-top: 150px;
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    margin-left:auto;
+    margin-right: auto;
+}
+
+.dmm1:hover {
+  transition: translateY(-10px);
+  filter: brightness(110%);
+  cursor: pointer;
+  line-height: 1;
+}
+
+.dmm2:hover
+{
+ transition: translateY(-10px);
+  filter: brightness(110%);
+  cursor: pointer;
+  line-height: 13
+}
+
+.dmm3:hover
+{
+ transition: translateY(-10px);
+  filter: brightness(150%);
+  cursor: pointer;
+  line-height: 13
+}
+
+.dmm4:hover
+{
+ transition: translateY(-10px);
+  filter: brightness(110%);
+  cursor: pointer;
+  line-height: 13
+}
 
 
 
@@ -254,7 +297,4 @@ a:active {
     transform: translateY(0);
   }
 }
-
-
-
 
